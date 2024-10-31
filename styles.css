@@ -12,11 +12,16 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 6%;
     padding-left: 20px;
     padding-right: 30px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -27,6 +32,8 @@ header {
 .icons {
     height: 30px;
     width: auto;
+    border: none;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -56,23 +63,17 @@ nav ul li a:visited {
     display: none;
     position: absolute;
     right: 0;
-    background-color: #fff;
-    min-width: 160px;
+    background-color: #e8dfd6;
     z-index: 1;
+    border-radius: 5px;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #e8dfd6;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.dropbtn {
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
 }
 
 .title {
