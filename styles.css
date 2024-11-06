@@ -123,6 +123,10 @@ nav ul li a:visited {
     max-height: 15%;
 }
 
+.centered-div img {
+    max-width: 400px;
+}
+
 .centered-div-wide {
     text-align: center;
     width: 100%;
