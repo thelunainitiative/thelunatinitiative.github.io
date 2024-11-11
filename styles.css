@@ -133,6 +133,13 @@ nav ul li a:visited {
     display: inline-block;
 }
 
+.centered-div-wide-blue {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: #002147;
+    color: #e8dfd6;
+}
 
 .padded {
     display: flex;
@@ -283,4 +290,31 @@ nav ul li a:visited {
     max-height: 100%;
     object-fit: contain;
     transform: scale(1);
+}
+
+@media (max-width: 500px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .grid-item {
+        overflow: hidden;
+        padding: 20px;
+        background-color: #002147;
+        color: #e8dfd6;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .grid-item img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        transform: scale(1);
+    }
 }
