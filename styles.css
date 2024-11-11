@@ -115,21 +115,23 @@ nav ul li a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 0 60px;
+    margin: 0;
 }
 
 .centered-div {
     text-align: center;
     width: 75%;
     max-width: 700px;
-    min-width: 400px;
-    margin: 0 auto;
+    min-width: 300px;
+    margin: 0;
     padding: 10px;
     max-height: 15%;
 }
 
 .centered-div img {
     max-width: 400px;
+    display: block;
+    margin: 0 auto;
 }
 
 .centered-div-wide {
@@ -227,7 +229,7 @@ nav ul li a:visited {
 
 .signup-container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
     text-align: center;
 }
@@ -278,7 +280,7 @@ nav ul li a:visited {
     gap: 20px;
     padding: 20px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .grid-item {
@@ -304,7 +306,7 @@ nav ul li a:visited {
         gap: 20px;
         padding: 20px;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .grid-item {
@@ -321,5 +323,11 @@ nav ul li a:visited {
         max-height: 100%;
         object-fit: contain;
         transform: scale(1);
+    }
+
+    .centered-div img {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
     }
 }
