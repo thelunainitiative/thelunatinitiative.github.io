@@ -1,4 +1,9 @@
 /* Base styles */
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Cormorant";
     background-color: #e8dfd6;
