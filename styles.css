@@ -325,8 +325,18 @@ nav ul li a:visited {
         transform: scale(1);
     }
 
+    .centered-div {
+        text-align: center;
+        width: 100%;
+        max-width: 700px;
+        min-width: 300px;
+        margin: 0;
+        padding: 10px;
+        max-height: 15%;
+    }
+
     .centered-div img {
-        max-width: 300px;
+        max-width: 80%;
         display: block;
         margin: 0 auto;
     }
